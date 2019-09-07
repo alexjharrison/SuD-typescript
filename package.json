@@ -4,7 +4,7 @@
   "description": "SuD game, now with typescript!",
   "main": "server.js",
   "scripts": {
-    "start": "ts-node-dev -r esm --transpile-only server"
+    "start": "ts-node-dev -r esm --transpile-only --no-notify server"
   },
   "repository": {
     "type": "git",
